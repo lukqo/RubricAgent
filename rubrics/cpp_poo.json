@@ -1,0 +1,12 @@
+{
+  "rubric_name": "POO en C++",
+  "language": "cpp",
+  "allowed_extensions": [
+    ".cpp",
+    ".h",
+    ".hpp"
+  ],
+  "description": "Evaluación de programación orientada a objetos en C++.",
+  "total_points": 100,
+  "criteria": []
+}

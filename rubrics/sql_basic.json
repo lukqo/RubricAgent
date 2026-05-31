@@ -1,0 +1,95 @@
+{
+  "rubric_name": "rubrica_sql_sakila_basica",
+  "language": "sql",
+  "allowed_extensions": [
+    ".sql"
+  ],
+  "description": "Rúbrica básica para evaluación de consultas SQL usando la base de datos Sakila.",
+  "criteria": [
+    {
+      "id": 1,
+      "name": "Uso de SELECT y proyección de datos",
+      "max_score": 10,
+      "levels": {
+        "Excelente": 10,
+        "Bueno": 7,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa si el estudiante selecciona correctamente columnas relevantes utilizando SELECT."
+    },
+    {
+      "id": 2,
+      "name": "Uso de filtros WHERE",
+      "max_score": 10,
+      "levels": {
+        "Excelente": 10,
+        "Bueno": 7,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa el uso correcto de condiciones y filtros mediante cláusulas WHERE."
+    },
+    {
+      "id": 3,
+      "name": "Uso de JOIN entre tablas",
+      "max_score": 15,
+      "levels": {
+        "Excelente": 15,
+        "Bueno": 10,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa la capacidad de relacionar tablas correctamente usando INNER JOIN, LEFT JOIN u otros tipos de JOIN."
+    },
+    {
+      "id": 4,
+      "name": "Uso de funciones agregadas",
+      "max_score": 10,
+      "levels": {
+        "Excelente": 10,
+        "Bueno": 7,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa el uso de funciones como COUNT, SUM, AVG, MAX y MIN."
+    },
+    {
+      "id": 5,
+      "name": "Agrupamiento y ordenamiento",
+      "max_score": 10,
+      "levels": {
+        "Excelente": 10,
+        "Bueno": 7,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa el uso correcto de GROUP BY y ORDER BY."
+    },
+    {
+      "id": 6,
+      "name": "Resolución del problema",
+      "max_score": 15,
+      "levels": {
+        "Excelente": 15,
+        "Bueno": 10,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa si la consulta responde correctamente al problema planteado."
+    },
+    {
+      "id": 7,
+      "name": "Legibilidad y buenas prácticas SQL",
+      "max_score": 10,
+      "levels": {
+        "Excelente": 10,
+        "Bueno": 7,
+        "Básico": 5,
+        "Insuficiente": 0
+      },
+      "description": "Evalúa indentación, uso de alias, nombres claros y organización de la consulta."
+    }
+  ],
+  "total_score": 80
+}

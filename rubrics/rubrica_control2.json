@@ -1,0 +1,179 @@
+{
+  "rubric_name": "Control 2 Python",
+
+  "language": "python",
+
+"experience": "Alumnos de primer año con poca experiencia en Python, siendo sus primeras prácticas de programación. Evalúa con criterio justo considerando el nivel inicial. Si el programa es funcional y cumple con el objetivo principal, valóralo positivamente aunque tenga errores menores de estructura. Distingue claramente entre errores graves (programa no funciona) y errores menores (lista de listas en vez de separadas, if en vez de elif, validación con números en vez de texto). Los errores menores bajan un nivel, no dos.",
+
+  "restrictions": "No usar librerías externas ni código de terceros, no se pueden utilizar clases, funciones, ni modulos. Solo se permite el uso de operadores logicos, operadores binarios, condicionales if, elif, else; ciclos while y for y manejo de strings y listas.",
+  
+  "exercises": [
+  {
+    "id": 1,
+    "description": "Hacer un programa en Python con las siguientes características:\nDesarrolle un programa en Python que permita gestionar reservas de pasajes interurbanos.\nDatos a registrar (en listas separadas):\n  • Nombre completo del pasajero\n  • Rut del pasajero\n  • Fecha de viaje\n  • Ciudad origen\n  • Ciudad destino\n  • Tipo de asiento (Semi-cama / Salón-cama)\n  • Pago (Semi-cama = $10000, Salón-cama = $18000)\nCondición:\n  • Validar que ciudad origen y destino no sean iguales.\nMenú:\n  Registrar reservas\n  Reporte de reservas\n  Total ingresos\n  Salir\n  • Al seleccionar la opción 1, se deben ingresar los datos de una reserva y así sucesivamente mientras seleccione dicha opción, se tiene que validar que la región de origen y destino no sea la misma.\n  • Al seleccionar la opción 2, se deben visualizar los datos de todas las reservas registradas y así sucesivamente mientras seleccione dicha opción.\n  • Al seleccionar la opción 3, se debe mostrar el monto total de ingresos considerando (sumando) todas las reservas registradas.\n  • Al seleccionar la opción 4, el programa debe finalizar su ejecución."
+  },
+  {
+    "id": 2,
+    "description": "Hacer un programa en Python con las siguientes características:\nDesarrolle un programa en Python para gestionar pedidos de comida a domicilio.\nDatos a registrar (en listas separadas):\n  • Nombre de cliente\n  • Dirección\n  • Fecha del pedido\n  • Comuna\n  • Tipo de pedido (Normal / Premium)\n  • Pago (Normal = $7000, Premium = $12000)\nCondición:\n  • Validar que la comuna no esté vacía.\nMenú:\n  1. Registrar pedidos\n  2. Reporte\n  3. Total ingresos\n  4. Salir\n  • Al seleccionar la opción 1, se deben ingresar los datos de un pedido y así sucesivamente mientras seleccione dicha opción, se tiene que validar que la comuna no esté vacía.\n  • Al seleccionar la opción 2, se deben visualizar los datos de todos los pedidos registrados y así sucesivamente mientras seleccione dicha opción.\n  • Al seleccionar la opción 3, se debe mostrar el monto total de ingresos considerando (sumando) todos los pedidos registrados.\n  • Al seleccionar la opción 4, el programa debe finalizar su ejecución."
+  },
+  {
+    "id": 3,
+    "description": "Hacer un programa en Python con las siguientes características:\nDesarrolle un programa en Python para registrar atenciones médicas.\nDatos a registrar (en listas separadas):\n  • Nombre del paciente\n  • Rut\n  • Fecha atención\n  • Especialidad (General / Especialista)\n  • Médico tratante\n  • Pago (General = $15000, Especialista = $30000)\nCondición:\n  • Validar que especialidad sea correcta, es decir, permitir ingresar solo \"General\" o \"Especialista\".\nMenú:\n  1. Registrar atención médica\n  2. Reporte\n  3. Total ingresos\n  4. Salir\n  • Al seleccionar la opción 1, se deben ingresar los datos de una atención médica y así sucesivamente mientras seleccione dicha opción, se tiene que validar que la especialidad sea correcta, es decir, permitir ingresar solo \"General\" o \"Especialista\".\n  • Al seleccionar la opción 2, se deben visualizar los datos de las atenciones médicas registradas y así sucesivamente mientras seleccione dicha opción.\n  • Al seleccionar la opción 3, se debe mostrar el monto total de ingresos considerando (sumando) todas las atenciones médicas registradas.\n  • Al seleccionar la opción 4, el programa debe finalizar su ejecución."
+  },
+  {
+    "id": 4,
+    "description": "Hacer un programa en Python con las siguientes características:\nDesarrolle un programa en Python para la venta de entradas de cine.\nDatos a registrar (en listas separadas):\n  • Nombre del cliente\n  • Película\n  • Fecha función\n  • Sala\n  • Tipo de entrada (Normal / VIP)\n  • Pago (Normal = $5000, VIP = $9000)\nCondición:\n  • Validar que tipo de entrada sea solo: \"Normal\" o \"VIP\".\nMenú:\n  1. Registrar entrada\n  2. Reporte\n  3. Total ingresos\n  4. Salir\n  • Al seleccionar la opción 1, se deben ingresar los datos de una entrada y así sucesivamente mientras seleccione dicha opción, se tiene que validar que el tipo de entrada sea solo: \"Normal\" o \"VIP\".\n  • Al seleccionar la opción 2, se deben visualizar los datos de las entradas registradas y así sucesivamente mientras seleccione dicha opción.\n  • Al seleccionar la opción 3, se debe mostrar el monto total de ingresos considerando (sumando) todas las entradas registradas.\n  • Al seleccionar la opción 4, el programa debe finalizar su ejecución."
+  },
+  {
+    "id": 5,
+    "description": "Hacer un programa en Python con las siguientes características:\nDesarrolle un programa en Python para gestionar préstamos de libros.\nDatos a registrar (en listas separadas):\n  • Nombre del usuario\n  • Libro solicitado\n  • Fecha préstamo\n  • Fecha devolución\n  • Tipo de préstamo (Normal / Express)\n  • Pago (Normal = $0, Express = $3000)\nCondición:\n  • Validar que tipo de préstamo sea solo: \"Normal\" o \"Express\".\nMenú:\n  1. Registrar préstamo\n  2. Reporte\n  3. Total ingresos\n  4. Salir\n  • Al seleccionar la opción 1, se deben ingresar los datos de un préstamo y así sucesivamente mientras seleccione dicha opción, se tiene que validar que el tipo de préstamo sea solo: \"Normal\" o \"Express\".\n  • Al seleccionar la opción 2, se deben visualizar los datos de los préstamos registrados y así sucesivamente mientras seleccione dicha opción.\n  • Al seleccionar la opción 3, se debe mostrar el monto total de ingresos considerando (sumando) todos los préstamos registrados.\n  • Al seleccionar la opción 4, el programa debe finalizar su ejecución."
+  }
+],
+
+  "allowed_extensions": [
+    ".py",
+    ".ipynb"
+  ],
+    
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": 1,
+      "name": "Uso de operadores",
+      "description": "Uso de operadores aritméticos, de comparación y lógicos.",
+      "levels": {
+        "Destacado": {
+          "points": 15,
+          "description": "Utiliza correctamente operadores aritméticos, lógicos y de comparación en la solución del problema, sin errores."
+        },
+        "Bueno": {
+          "points": 10,
+          "description": "Utiliza correctamente operadores en la mayoría de los casos, con errores menores que no afectan el funcionamiento general."
+        },
+        "Aceptable": {
+          "points": 6,
+          "description": "Utiliza operadores de forma básica pero con errores notables o de forma incompleta, afectando parcialmente el resultado."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "El criterio prácticamente no está implementado o presenta errores graves que impiden el funcionamiento."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Control de flujo",
+      "description": "Uso de IF, ELIF, ELSE, WHILE y ciclos anidados.",
+      "levels": {
+        "Destacado": {
+          "points": 15,
+          "description": "Utiliza correctamente estructuras de control y logra resolver adecuadamente el flujo completo del programa."
+        },
+        "Bueno": {
+          "points": 10,
+          "description": "Utiliza correctamente estructuras de control en la mayoría de los casos, con errores menores."
+        },
+        "Aceptable": {
+          "points": 6,
+          "description": "Utiliza estructuras de control de forma parcial o con errores que afectan algunas opciones del menú o validaciones."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "El criterio prácticamente no está implementado o el flujo presenta errores graves que impiden la ejecución."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Manejo de strings",
+      "description": "Uso de indexación y funciones básicas de strings.",
+      "levels": {
+        "Destacado": {
+          "points": 15,
+          "description": "Manipula correctamente strings y utiliza adecuadamente operaciones básicas en toda la solución."
+        },
+        "Bueno": {
+          "points": 10,
+          "description": "Utiliza correctamente strings en la mayoría de los casos, con errores menores."
+        },
+        "Aceptable": {
+          "points": 6,
+          "description": "Utiliza strings de forma básica o limitada, con errores que afectan parcialmente la solución."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "El criterio prácticamente no está implementado o presenta errores graves."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Resolución de problemas computacionales",
+      "description": "Capacidad para resolver problemas de forma estructurada y eficiente.",
+      "levels": {
+        "Destacado": {
+          "points": 25,
+          "description": "Resuelve correctamente el problema planteado en su totalidad: menú funcional, registro de datos, reporte y cálculo de ingresos, con la validación requerida."
+        },
+        "Bueno": {
+          "points": 17,
+          "description": "Resuelve correctamente la mayor parte del problema: el menú funciona y la mayoría de las opciones están implementadas, con errores menores."
+        },
+        "Aceptable": {
+          "points": 9,
+          "description": "Resuelve parcialmente el problema: algunas opciones del menú funcionan pero faltan componentes importantes o la validación no está implementada."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "No logra resolver el problema principal o el programa no funciona."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Modelado de datos",
+      "description": "Uso adecuado de strings y listas.",
+      "levels": {
+        "Destacado": {
+          "points": 15,
+          "description": "Representa correctamente toda la información requerida utilizando listas separadas y strings según lo solicitado."
+        },
+        "Bueno": {
+          "points": 10,
+          "description": "Representa correctamente la información en la mayoría de los casos, con alguna lista faltante o mal estructurada."
+        },
+        "Aceptable": {
+          "points": 6,
+          "description": "Representa la información de forma parcial: faltan varias listas o los datos no están bien organizados."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "La información no logra representarse correctamente o no se usan listas separadas."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Uso de estructuras iterativas FOR",
+      "description": "Uso de FOR en recorridos sobre listas.",
+      "levels": {
+        "Destacado": {
+          "points": 15,
+          "description": "Utiliza correctamente ciclos FOR para recorrer listas en la solución, sin errores."
+        },
+        "Bueno": {
+          "points": 10,
+          "description": "Utiliza correctamente FOR en la mayoría de los casos, con errores menores."
+        },
+        "Aceptable": {
+          "points": 6,
+          "description": "Utiliza FOR de forma parcial o con errores que afectan el recorrido de los datos."
+        },
+        "Insuficiente": {
+          "points": 1,
+          "description": "El criterio prácticamente no está implementado o presenta errores graves."
+        }
+      }
+    }
+  ]
+}
